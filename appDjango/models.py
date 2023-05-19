@@ -4,3 +4,7 @@ class Teste(models.Model):
     nome = models.CharField(
         max_length=100
     )
+class Pessoa(models.Model):
+    nome = models.CharField(
+        max_length=100
+    )
